@@ -1,0 +1,10 @@
+/*Secciones*/
+section>h4{
+    font-family: 'Hind', sans-serif;
+    text-align:  center;
+    color: rgb(255, 196, 230);
+    font-size: 1.5em;
+}
+section>p{
+    text-align: center;
+}

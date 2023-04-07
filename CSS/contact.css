@@ -1,0 +1,51 @@
+/*Secciones*/
+main{
+    vertical-align: middle;
+    padding: 0px;
+    background-color: #fcf4f4 ;
+    text-align: center;
+}
+#FormContacto{
+    width: 35%;
+    min-width: 260px;
+    display: inline-block;
+    text-align:left;
+    padding: 20px;
+}
+#ubicanos{
+    width: 50%;
+    min-width: 260px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 20px;
+}
+/*seccion formulario*/
+label{
+    display: block;
+    padding: 4px 0px;
+    margin-top: 10px;
+    font-family:"IBM Plex Sans",sans-serif ;
+}
+input{
+    height: 2em;
+    width: 100%;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+input[type="submit"]{
+    border:none;
+    background-color: rgb(255, 80, 109);
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 40px;
+    width: auto;
+    margin-top: 14px;
+}
+input#bolAutorizo{
+    width: 20px;
+    margin: 10px 10px 10px 10px;
+    float:left ;
+    vertical-align: middle;
+    margin-top: 1px;
+}

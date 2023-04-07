@@ -1,0 +1,103 @@
+/*Importando una fuente*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+/*general*/
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Encabezado*/
+header {
+    padding: 25px 15px;
+    background-color: #d85f1a;
+    background-image: url(../image/recursos/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header>h1 {
+    font-family: "cinzel decorative", sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    text-align: center;
+    color: darksalmon;
+}
+
+header>h2 {
+    text-align: center;
+    margin: 5px 0px 0px;
+}
+
+/*Barra de notificaciones*/
+#barNotificaciones {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(252, 222, 235);
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+/*Barra de navegación*/
+#navegar{
+    text-align: center;
+    padding: 14px 10px 14px 0px;
+    margin: 0px;
+    background-color:#fcb0ff ;
+
+}
+#navegar>li:hover{
+    background-color:#ff7faa;
+}
+
+#navegar>li {
+    display: inline;
+    position: relative;
+    padding: 10px 16px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-family: monospace;
+    color: #ff7070;
+}
+ #navegar > li > a {
+    color: #fff;
+    text-decoration: none;
+ }
+
+/*Contenido principal*/
+main{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*cambiar productos*/
+.imgProduct {
+    width: 200px;
+    height: auto;
+}
+
+/* Chat de WhatsApp
+   ========================= */
+   #chatWhatsApp{
+    width: 64px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Pie de página*/
+footer {
+    background-color: #fcb0ff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

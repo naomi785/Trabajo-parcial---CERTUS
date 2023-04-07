@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacténos - La casa de la papeleria </title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<!--WhatsApp iniciar conversación-->
+<a target="_blank" href="https://wa.me/51956396522?text=Hola!%20%2C%20Me%20interesa%20comprar%20un%20producto%20%20">
+    <img id="chatWhatsApp" src="image/recursos/WhatsApp.svg" alt="Iniciar conversación por WhatsApp">
+</a>
+
+
+<!--Encabezado-->
+<header>
+    <h1>La casa de la papeleria</h1>
+    <h2>Calidad y garantía</h2>
+
+</header>
+
+<!--Barra de navegación-->
+<nav> <!--Navegation-->
+    <ul id="navegar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Nosotros</a></li>
+        <li><a href="comocomprar.html">Cómo comprar</a></li>
+        <li><a href="contact.html">Contacténos</a></li>
+
+    </ul>
+</nav>
+<!--Cuerpo principal-->
+<main>
+    <!--Datos de contacto-->
+    <section id="ubicanos">
+        <h3>Escríbenos ahora</h3>
+        <p>Av. Los Alamos de Punta Hermosa<br>
+            Pachacamac - Lima - Perú
+        </p>
+        <p>Télefono: 01 680 9999 / 999 555 555</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1380.1864154293971!2d-77.04790679054719!3d-11.92201336373708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d04f023f0141%3A0xf6d82d0bf769c756!2sMinizool%C3%B3gico%20Club%20Sinchi%20Roca!5e0!3m2!1ses!2spe!4v1679537287496!5m2!1ses!2spe"
+            width="100%" height="420px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!--Formulario de contacto-->
+    <section id="FormContacto">
+        <!-- Formulario -->
+        <form action="contactoRegistro.html" method="post">
+
+            <!-- Input / Entrada de valor -->
+            <div>
+                <label for="txtNombre">Ingrese su nombre</label>
+                <input type="text" name="txtNombre" id="txtNombre" maxlength=50 required>
+            </div>
+            <div>
+                <label for="txtApellido">Ingrese su apellido</label>
+                <input type="text" name="txtApellido" id="txtApellido" autocomplete="off" maxlength=54 required>
+            </div>
+            <div>
+                <label for="txtEmail">Ingrese su correo electrónico</label>
+                <input type="email" name="txtEmail" id="txtEmail" autocomplete="off" maxlength=128 required>
+            </div>
+
+            <div>
+                <label for="numPhone">Ingrese su teléfono o celular</label>
+                <input type="tel" name="numPhone" id="numPhone" maxlength="13" minlength="7">
+            </div>
+
+            <!-- Select / Selección de valor -->
+            <div>
+                <label for="txtAsunto">Escoja el asunto del mensaje</label>
+                <select name="txtAsunto" id="txtAsunto" required>
+                    <option value="">Seleccione una opción...</option>
+                    <option value="comprarMayor">Comprar productos por mayor</option>
+                    <option value="consultaDevolucion">Consulta para devolución de producto</option>
+                    <option value="consultaGeneral">Hacer consulta general</option>
+                </select>
+            </div>
+
+            <!-- TextArea / Cuerpo de texto -->
+
+            <div>
+                <label for="bodyDetalle">Ingrese su mensaje</label>
+                <textarea name="bodyDetalle" id="bodyDetalle" cols="30" rows="8" required></textarea>
+            </div>
+
+            <!-- Input Checkbox -->
+            <div>
+                <input type="checkbox" name="bolAutorizo" id="bolAutorizo"required>
+                <label for="bolAutorizo">Autorizo el envío de publicidad e información comercial</label>
+            </div>
+
+            <!-- Input Submit / Botón de enviar -->
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>    
+    </section>
+
+</main>
+
+</html>
